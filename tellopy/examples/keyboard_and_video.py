@@ -113,6 +113,14 @@ controls = {
     'enter': take_picture,
     'return': take_picture,
     'o' : throw_and_go,
+    '8' : flip_forward,
+    '6' : flip_right,
+    '2' : flip_back,
+    '4' : flip_left,
+    '7' : flip_forwardright,
+    '9' : flip_forwardleft,
+    '1' : flip_backright,
+    '3' : flip_backleft,
 }
 
 class FlightDataDisplay(object):
