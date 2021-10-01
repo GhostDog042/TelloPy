@@ -112,6 +112,7 @@ controls = {
     'z': toggle_zoom,
     'enter': take_picture,
     'return': take_picture,
+    'o' : throw_and_go,
 }
 
 class FlightDataDisplay(object):
