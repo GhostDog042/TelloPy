@@ -75,6 +75,11 @@ def palm_land(drone, speed):
     if speed == 0:
         return
     drone.palm_land()
+    
+def throw_and_go(drone, speed):
+    if speed == 0:
+        return
+    drone.throw_and_go()
 
 def toggle_zoom(drone, speed):
     # In "video" mode the drone sends 1280x720 frames.
@@ -112,6 +117,15 @@ controls = {
     'z': toggle_zoom,
     'enter': take_picture,
     'return': take_picture,
+    'o' : throw_and_go,
+    ''''8' : flip_forward,
+    '6' : flip_right,
+    '2' : flip_back,
+    '4' : flip_left,
+    '7' : flip_forwardright,
+    '9' : flip_forwardleft,
+    '1' : flip_backright,
+    '3' : flip_backleft,'''
 }
 
 class FlightDataDisplay(object):
